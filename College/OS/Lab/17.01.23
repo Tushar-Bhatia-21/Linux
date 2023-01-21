@@ -1,0 +1,12 @@
+<b>These are the commands that were learned on 17.01.23 and performed on a Linux Terminal.</b>
+
+All of the following commands use the following syntax: <command name> File/Directory Name -mode 
+
+In case of Multiple -modes stated last one will be executed.
+
+<b>General GNU Linux Commands</b>
+
+1. <b>cat /etc/shells</b>- It allows user to view all the files present in /bin directory.
+    ``` $cat /etc/shells ```
+      It returns the following directories.
+      
