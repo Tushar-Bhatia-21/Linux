@@ -1,3 +1,4 @@
+# Display Working Directory
 var=$(pwd)
 echo $var
 
@@ -9,7 +10,7 @@ now="$(date +'%d/%T')"
 echo "$now"
 
 
-#For Const only
+#Creating a Constant variable
 
 Name=Tushar
 echo $Name
@@ -17,21 +18,21 @@ readonly $Name
 
 echo ""
 #New Assignment
-Name=Tushar
+Name=ABC
 echo $Name
 
-#String
+#String Display
 string='Hi my name is Tushar'
 echo $string
 echo ""
 
-#FOR UPPERCASE
+#String UPPERCASE
 STRING='This is a string'
 echo $STRING
 
 echo ${STRING^^}
 
-#FOR LOWERCASE
+#String LOWERCASE
 
 name=ABC
 echo ${name,,}
@@ -40,9 +41,4 @@ echo ${name,,}
 
 String='HI THIS IS A TEST'
 echo ${String:15}
-
-
-
-
-
 
