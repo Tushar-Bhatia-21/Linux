@@ -10,9 +10,10 @@ while [ $i -lt $n ]
 do
 	i=`expr $i + 1`
 	z=`expr $x + $y`
+	sum=`expr $x + $y`
 	echo "$z"
-
 	x=$y
 	y=$z
+	sum+=$z+1
 done
-
+echo "Sum is: $sum"
