@@ -1,4 +1,4 @@
-echo "Enter the file name: "
+echo "0Enter the file name: "
 read file
 echo "Enter the word: "
 read word
